@@ -1,2 +1,9 @@
-asdg aaagwrgwgwgwrrwgw
-Vai ter coisa nossas por ai
+nome = input(" Qual o seu nome? ")
+identifica = input("Como você se indentifica? ")
+if identifica == "mulher":
+	print("Oi {} é um enorme prazer em conhece-la!".format(nome))
+elif identifica == "homem": 
+	print("Olá {} é um prazer em conhece-lo!!".format(nome))
+else:
+	print("Não compreendi, mas estou feliz em lhe conhecer.")
+print("Para qualquer dúvida, me chame novamente.")
