@@ -1,0 +1,7 @@
+n1 = int(input("Digite um número: "))
+n2 = int(input("Digite outro número: "))
+print(" A soma entre {} e {} é {}". format(n1, n2, n1 + n2))
+print("A subtração de {} por {} é {}".format(n1, n2, n1 - n2))
+print("A multiplicação de {} por {} é {}".format(n1, n2, n1 * n2))
+print("A pontecialização de {} em {} é {:.2f}".format(n1, n2, n1 ** n2))
+print("E por último a divisão inteira de {} por {} é {:.2f}".format(n1, n2, n1 / n2))
